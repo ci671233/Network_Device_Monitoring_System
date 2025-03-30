@@ -1,6 +1,6 @@
-package com.example.network_device_monitoring_system.auth.security;
+package com.example.network_device_monitoring_system.user.security;
 
-import com.example.network_device_monitoring_system.auth.util.JwtUtil;
+import com.example.network_device_monitoring_system.user.util.JwtUtil;
 import io.jsonwebtoken.JwtException;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -8,10 +8,12 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpHeaders;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.authority.SimpleGrantedAuthority; // ✅ 추가
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
+import java.util.Collections;
 
 /**
  * 요청마다 JWT 토큰을 검증하는 필터
@@ -40,8 +42,16 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                 // 토큰 검증 + 사용자 정보 SecurityContext에 등록
                 if (jwtUtil.validateToken(token)) {
                     String email = jwtUtil.extractEmail(token);
+                    System.out.println("[JWT 필터] 실행됨 - Authorization: " + authHeader);
+
+                    // ✅ 최소 권한 "ROLE_USER" 부여
                     UsernamePasswordAuthenticationToken authentication =
-                            new UsernamePasswordAuthenticationToken(email, null, null);
+                            new UsernamePasswordAuthenticationToken(
+                                    email,
+                                    null,
+                                    Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"))
+                            );
+
                     SecurityContextHolder.getContext().setAuthentication(authentication);
                 }
             } catch (JwtException e) {
@@ -54,3 +64,4 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         filterChain.doFilter(request, response);
     }
 }
+

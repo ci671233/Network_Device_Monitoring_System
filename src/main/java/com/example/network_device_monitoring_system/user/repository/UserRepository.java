@@ -1,6 +1,6 @@
-package com.example.network_device_monitoring_system.auth.repository;
+package com.example.network_device_monitoring_system.user.repository;
 
-import com.example.network_device_monitoring_system.auth.model.User;
+import com.example.network_device_monitoring_system.user.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

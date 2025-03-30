@@ -1,4 +1,4 @@
-package com.example.network_device_monitoring_system.auth.model;
+package com.example.network_device_monitoring_system.user.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,0 +1,756 @@
+[
+  {
+    "deviceId": "ND-100",
+    "status": "ACTIVE",
+    "location": "Room2",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:24:24"
+  },
+  {
+    "deviceId": "ND-101",
+    "status": "IDLE",
+    "location": "Room6",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:24:44"
+  },
+  {
+    "deviceId": "ND-102",
+    "status": "ACTIVE",
+    "location": "Room5",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:10:07"
+  },
+  {
+    "deviceId": "ND-103",
+    "status": "IDLE",
+    "location": "Room4",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:14:43"
+  },
+  {
+    "deviceId": "ND-104",
+    "status": "ACTIVE",
+    "location": "Room6",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:15:08"
+  },
+  {
+    "deviceId": "ND-105",
+    "status": "IDLE",
+    "location": "Room6",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:02:28"
+  },
+  {
+    "deviceId": "ND-106",
+    "status": "IDLE",
+    "location": "Room2",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:12:01"
+  },
+  {
+    "deviceId": "ND-107",
+    "status": "IDLE",
+    "location": "Room8",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:16:34"
+  },
+  {
+    "deviceId": "ND-108",
+    "status": "ACTIVE",
+    "location": "Room6",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:15:03"
+  },
+  {
+    "deviceId": "ND-109",
+    "status": "ACTIVE",
+    "location": "Room10",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:02:06"
+  },
+  {
+    "deviceId": "ND-110",
+    "status": "ACTIVE",
+    "location": "Room1",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:15:47"
+  },
+  {
+    "deviceId": "ND-111",
+    "status": "ACTIVE",
+    "location": "Room10",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:19:54"
+  },
+  {
+    "deviceId": "ND-112",
+    "status": "ERROR",
+    "location": "Room4",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:28:38",
+    "errorLog": {
+      "code": 503,
+      "message": "Ping timeout",
+      "trace": "Ping → Drop → Timeout"
+    },
+    "retryAttempts": 3
+  },
+  {
+    "deviceId": "ND-113",
+    "status": "ACTIVE",
+    "location": "Room4",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:13:55"
+  },
+  {
+    "deviceId": "ND-114",
+    "status": "ACTIVE",
+    "location": "Room9",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:27:07"
+  },
+  {
+    "deviceId": "ND-115",
+    "status": "ACTIVE",
+    "location": "Room4",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:13:07"
+  },
+  {
+    "deviceId": "ND-116",
+    "status": "ACTIVE",
+    "location": "Room6",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:19:36"
+  },
+  {
+    "deviceId": "ND-117",
+    "status": "ACTIVE",
+    "location": "Room9",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:11:48"
+  },
+  {
+    "deviceId": "ND-118",
+    "status": "ACTIVE",
+    "location": "Room3",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:01:20"
+  },
+  {
+    "deviceId": "ND-119",
+    "status": "IDLE",
+    "location": "Room7",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:13:03"
+  },
+  {
+    "deviceId": "ND-120",
+    "status": "IDLE",
+    "location": "Room1",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:17:27"
+  },
+  {
+    "deviceId": "ND-121",
+    "status": "ACTIVE",
+    "location": "Room7",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:04:44"
+  },
+  {
+    "deviceId": "ND-122",
+    "status": "ACTIVE",
+    "location": "Room3",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:09:52"
+  },
+  {
+    "deviceId": "ND-123",
+    "status": "ACTIVE",
+    "location": "Room3",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:09:34"
+  },
+  {
+    "deviceId": "ND-124",
+    "status": "ACTIVE",
+    "location": "Room6",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:04:23"
+  },
+  {
+    "deviceId": "ND-125",
+    "status": "ACTIVE",
+    "location": "Room8",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:13:38"
+  },
+  {
+    "deviceId": "ND-126",
+    "status": "ACTIVE",
+    "location": "Room5",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:16:43"
+  },
+  {
+    "deviceId": "ND-127",
+    "status": "IDLE",
+    "location": "Room7",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:11:01"
+  },
+  {
+    "deviceId": "ND-128",
+    "status": "ACTIVE",
+    "location": "Room4",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:22:16"
+  },
+  {
+    "deviceId": "ND-129",
+    "status": "ACTIVE",
+    "location": "Room7",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:20:45"
+  },
+  {
+    "deviceId": "ND-130",
+    "status": "ACTIVE",
+    "location": "Room4",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:26:35"
+  },
+  {
+    "deviceId": "ND-131",
+    "status": "IDLE",
+    "location": "Room9",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:24:22"
+  },
+  {
+    "deviceId": "ND-132",
+    "status": "ACTIVE",
+    "location": "Room6",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:16:21"
+  },
+  {
+    "deviceId": "ND-133",
+    "status": "ACTIVE",
+    "location": "Room9",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:01:11"
+  },
+  {
+    "deviceId": "ND-134",
+    "status": "IDLE",
+    "location": "Room1",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:21:21"
+  },
+  {
+    "deviceId": "ND-135",
+    "status": "ACTIVE",
+    "location": "Room2",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:16:03"
+  },
+  {
+    "deviceId": "ND-136",
+    "status": "ERROR",
+    "location": "Room2",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:08:25",
+    "errorLog": {
+      "code": 408,
+      "message": "No response",
+      "trace": "Request sent → Timeout → No reply"
+    },
+    "retryAttempts": 2
+  },
+  {
+    "deviceId": "ND-137",
+    "status": "ACTIVE",
+    "location": "Room4",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:11:16"
+  },
+  {
+    "deviceId": "ND-138",
+    "status": "ACTIVE",
+    "location": "Room7",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:27:50"
+  },
+  {
+    "deviceId": "ND-139",
+    "status": "ACTIVE",
+    "location": "Room1",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:22:01"
+  },
+  {
+    "deviceId": "ND-140",
+    "status": "ACTIVE",
+    "location": "Room3",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:14:08"
+  },
+  {
+    "deviceId": "ND-141",
+    "status": "ACTIVE",
+    "location": "Room9",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:17:55"
+  },
+  {
+    "deviceId": "ND-142",
+    "status": "ACTIVE",
+    "location": "Room1",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:15:27"
+  },
+  {
+    "deviceId": "ND-143",
+    "status": "ACTIVE",
+    "location": "Room7",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:17:37"
+  },
+  {
+    "deviceId": "ND-144",
+    "status": "IDLE",
+    "location": "Room7",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:21:48"
+  },
+  {
+    "deviceId": "ND-145",
+    "status": "ACTIVE",
+    "location": "Room9",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:20:06"
+  },
+  {
+    "deviceId": "ND-146",
+    "status": "ACTIVE",
+    "location": "Room9",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:00:46"
+  },
+  {
+    "deviceId": "ND-147",
+    "status": "ACTIVE",
+    "location": "Room3",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:01:21"
+  },
+  {
+    "deviceId": "ND-148",
+    "status": "ACTIVE",
+    "location": "Room2",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:03:34"
+  },
+  {
+    "deviceId": "ND-149",
+    "status": "ACTIVE",
+    "location": "Room8",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:14:00"
+  },
+  {
+    "deviceId": "ND-150",
+    "status": "ACTIVE",
+    "location": "Room3",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:12:37"
+  },
+  {
+    "deviceId": "ND-151",
+    "status": "ACTIVE",
+    "location": "Room7",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:29:31"
+  },
+  {
+    "deviceId": "ND-152",
+    "status": "ERROR",
+    "location": "Room5",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:01:59",
+    "errorLog": {
+      "code": 504,
+      "message": "Packet loss",
+      "trace": "No ICMP response → Packet drop → Disconnect"
+    },
+    "retryAttempts": 2
+  },
+  {
+    "deviceId": "ND-153",
+    "status": "ACTIVE",
+    "location": "Room6",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:25:46"
+  },
+  {
+    "deviceId": "ND-154",
+    "status": "ERROR",
+    "location": "Room2",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:23:25",
+    "errorLog": {
+      "code": 504,
+      "message": "Packet loss",
+      "trace": "No ICMP response → Packet drop → Disconnect"
+    },
+    "retryAttempts": 3
+  },
+  {
+    "deviceId": "ND-155",
+    "status": "ACTIVE",
+    "location": "Room9",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:01:32"
+  },
+  {
+    "deviceId": "ND-156",
+    "status": "ACTIVE",
+    "location": "Room4",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:14:15"
+  },
+  {
+    "deviceId": "ND-157",
+    "status": "ACTIVE",
+    "location": "Room4",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:11:06"
+  },
+  {
+    "deviceId": "ND-158",
+    "status": "IDLE",
+    "location": "Room10",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:28:37"
+  },
+  {
+    "deviceId": "ND-159",
+    "status": "ACTIVE",
+    "location": "Room1",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:29:40"
+  },
+  {
+    "deviceId": "ND-160",
+    "status": "ACTIVE",
+    "location": "Room7",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:28:14"
+  },
+  {
+    "deviceId": "ND-161",
+    "status": "ACTIVE",
+    "location": "Room9",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:25:02"
+  },
+  {
+    "deviceId": "ND-162",
+    "status": "IDLE",
+    "location": "Room3",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:10:30"
+  },
+  {
+    "deviceId": "ND-163",
+    "status": "ACTIVE",
+    "location": "Room1",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:24:50"
+  },
+  {
+    "deviceId": "ND-164",
+    "status": "IDLE",
+    "location": "Room8",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:07:46"
+  },
+  {
+    "deviceId": "ND-165",
+    "status": "ACTIVE",
+    "location": "Room8",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:02:43"
+  },
+  {
+    "deviceId": "ND-166",
+    "status": "ACTIVE",
+    "location": "Room8",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:26:42"
+  },
+  {
+    "deviceId": "ND-167",
+    "status": "IDLE",
+    "location": "Room8",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:04:28"
+  },
+  {
+    "deviceId": "ND-168",
+    "status": "ERROR",
+    "location": "Room4",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:08:24",
+    "errorLog": {
+      "code": 504,
+      "message": "Packet loss",
+      "trace": "No ICMP response → Packet drop → Disconnect"
+    },
+    "retryAttempts": 3
+  },
+  {
+    "deviceId": "ND-169",
+    "status": "ERROR",
+    "location": "Room5",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:29:51",
+    "errorLog": {
+      "code": 408,
+      "message": "No response",
+      "trace": "Request sent → Timeout → No reply"
+    },
+    "retryAttempts": 3
+  },
+  {
+    "deviceId": "ND-170",
+    "status": "IDLE",
+    "location": "Room6",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:18:46"
+  },
+  {
+    "deviceId": "ND-171",
+    "status": "IDLE",
+    "location": "Room1",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:03:11"
+  },
+  {
+    "deviceId": "ND-172",
+    "status": "IDLE",
+    "location": "Room2",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:07:58"
+  },
+  {
+    "deviceId": "ND-173",
+    "status": "ACTIVE",
+    "location": "Room2",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:28:51"
+  },
+  {
+    "deviceId": "ND-174",
+    "status": "ACTIVE",
+    "location": "Room5",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:04:04"
+  },
+  {
+    "deviceId": "ND-175",
+    "status": "ERROR",
+    "location": "Room5",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:17:20",
+    "errorLog": {
+      "code": 504,
+      "message": "Packet loss",
+      "trace": "No ICMP response → Packet drop → Disconnect"
+    },
+    "retryAttempts": 1
+  },
+  {
+    "deviceId": "ND-176",
+    "status": "ACTIVE",
+    "location": "Room2",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:24:00"
+  },
+  {
+    "deviceId": "ND-177",
+    "status": "ACTIVE",
+    "location": "Room3",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:05:07"
+  },
+  {
+    "deviceId": "ND-178",
+    "status": "IDLE",
+    "location": "Room8",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:28:47"
+  },
+  {
+    "deviceId": "ND-179",
+    "status": "ACTIVE",
+    "location": "Room9",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:00:22"
+  },
+  {
+    "deviceId": "ND-180",
+    "status": "ACTIVE",
+    "location": "Room1",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:02:37"
+  },
+  {
+    "deviceId": "ND-181",
+    "status": "IDLE",
+    "location": "Room1",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:16:10"
+  },
+  {
+    "deviceId": "ND-182",
+    "status": "IDLE",
+    "location": "Room4",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:04:36"
+  },
+  {
+    "deviceId": "ND-183",
+    "status": "ACTIVE",
+    "location": "Room10",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:05:03"
+  },
+  {
+    "deviceId": "ND-184",
+    "status": "IDLE",
+    "location": "Room6",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:14:41"
+  },
+  {
+    "deviceId": "ND-185",
+    "status": "ACTIVE",
+    "location": "Room4",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:02:39"
+  },
+  {
+    "deviceId": "ND-186",
+    "status": "ACTIVE",
+    "location": "Room5",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:12:03"
+  },
+  {
+    "deviceId": "ND-187",
+    "status": "ACTIVE",
+    "location": "Room2",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:18:27"
+  },
+  {
+    "deviceId": "ND-188",
+    "status": "ACTIVE",
+    "location": "Room2",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:07:59"
+  },
+  {
+    "deviceId": "ND-189",
+    "status": "ACTIVE",
+    "location": "Room7",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:09:41"
+  },
+  {
+    "deviceId": "ND-190",
+    "status": "ACTIVE",
+    "location": "Room7",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:03:13"
+  },
+  {
+    "deviceId": "ND-191",
+    "status": "ERROR",
+    "location": "Room1",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:13:34",
+    "errorLog": {
+      "code": 408,
+      "message": "No response",
+      "trace": "Request sent → Timeout → No reply"
+    },
+    "retryAttempts": 2
+  },
+  {
+    "deviceId": "ND-192",
+    "status": "IDLE",
+    "location": "Room5",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:20:57"
+  },
+  {
+    "deviceId": "ND-193",
+    "status": "ACTIVE",
+    "location": "Room1",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:27:28"
+  },
+  {
+    "deviceId": "ND-194",
+    "status": "ERROR",
+    "location": "Room5",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:11:27",
+    "errorLog": {
+      "code": 408,
+      "message": "No response",
+      "trace": "Request sent → Timeout → No reply"
+    },
+    "retryAttempts": 2
+  },
+  {
+    "deviceId": "ND-195",
+    "status": "ACTIVE",
+    "location": "Room9",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:29:18"
+  },
+  {
+    "deviceId": "ND-196",
+    "status": "ACTIVE",
+    "location": "Room6",
+    "networkStrength": "MEDIUM",
+    "timestamp": "2025-03-31T01:00:13"
+  },
+  {
+    "deviceId": "ND-197",
+    "status": "ACTIVE",
+    "location": "Room2",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:23:38"
+  },
+  {
+    "deviceId": "ND-198",
+    "status": "ACTIVE",
+    "location": "Room10",
+    "networkStrength": "WEAK",
+    "timestamp": "2025-03-31T01:00:13"
+  },
+  {
+    "deviceId": "ND-199",
+    "status": "ACTIVE",
+    "location": "Room5",
+    "networkStrength": "STRONG",
+    "timestamp": "2025-03-31T01:29:17"
+  }
+]

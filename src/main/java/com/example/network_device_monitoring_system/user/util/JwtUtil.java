@@ -1,4 +1,4 @@
-package com.example.network_device_monitoring_system.auth.util;
+package com.example.network_device_monitoring_system.user.util;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
