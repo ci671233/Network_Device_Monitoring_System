@@ -5,7 +5,7 @@ COPY . .
 RUN npm install
 RUN npm run build
 
-# Serve 단계 (nginx)
+# Serve 단계
 FROM nginx:alpine
 COPY --from=build /app/dist /usr/share/nginx/html
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf

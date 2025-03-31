@@ -25,14 +25,14 @@ public class RoomService {
     public Map<String, List<DeviceSimpleResponse>> getDevicesByRoomGrouped(String roomName) {
         List<DeviceStatusEntity> devices = deviceStatusRepository.findByLocation(roomName);
 
-        // 순서를 보장하기 위해 LinkedHashMap 사용 (ERROR → ACTIVE → IDLE)
+        // 가독성을 위해 LinkedHashMap 사용 (ERROR - ACTIVE - IDLE)
         Map<String, List<DeviceSimpleResponse>> grouped = new LinkedHashMap<>();
         grouped.put("ERROR", new ArrayList<>());
         grouped.put("ACTIVE", new ArrayList<>());
         grouped.put("IDLE", new ArrayList<>());
 
-        for (DeviceStatusEntity device : devices) {
-            String status = device.getStatus(); // 상태는 항상 영어 (ex: ACTIVE)
+        for (DeviceStatusEntity device : devices) { // devices 특정방 장비 리스트
+            String status = device.getStatus();
 
             if (grouped.containsKey(status)) {
                 grouped.get(status).add(

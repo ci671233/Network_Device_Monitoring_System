@@ -35,7 +35,7 @@ public class DeviceDataService {
         System.out.println("ErrorLog: " + message.getErrorLog());
         System.out.println("RetryAttempts: " + message.getRetryAttempts());
 
-        // 1️⃣ MySQL에 저장
+        // MySQL에 저장
         DeviceStatusEntity entity = new DeviceStatusEntity(
                 null,
                 message.getDeviceId(),
@@ -45,11 +45,11 @@ public class DeviceDataService {
                 message.getTimestamp()
         );
         mysqlRepository.save(entity);
-        System.out.println("✅ MySQL 저장 완료");
+        System.out.println("MySQL 저장 완료");
 
-        // 2️⃣ MongoDB에 저장 (고장 상태인 경우에만)
+        // MongoDB에 저장 (고장 상태인 경우에만)
         if (message.getStatus() != null && message.getStatus().equalsIgnoreCase("ERROR")) {
-            System.out.println("🔍 상태가 'ERROR'입니다. MongoDB 저장 시도");
+            System.out.println("MongoDB 저장 시도");
 
             DeviceStatusDocument document = new DeviceStatusDocument(
                     null,
@@ -62,9 +62,9 @@ public class DeviceDataService {
                     message.getRetryAttempts()
             );
             mongoRepository.save(document);
-            System.out.println("✅ MongoDB 저장 완료 (고장 상태)");
+            System.out.println("MongoDB 저장 완료");
         } else {
-            System.out.println("ℹ️ MongoDB 저장 조건 불충족 (status != ERROR)");
+            System.out.println("MongoDB 저장 에러");
         }
 
         System.out.println("==== 처리 완료 ====\n");

@@ -13,7 +13,7 @@ import java.util.Date;
 @Component
 public class JwtUtil {
 
-    // 비밀 키 (32바이트 이상 권장)
+    // 비밀 키
     private static final String SECRET_KEY = "my-super-secret-key-should-be-very-secure-and-long";
 
     // 토큰 유효 시간 (1시간)

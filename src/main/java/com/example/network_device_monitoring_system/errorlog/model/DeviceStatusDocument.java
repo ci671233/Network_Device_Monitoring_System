@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 public class DeviceStatusDocument {
 
     @Id
-    private String id; // MongoDB의 기본 ID (_id)
+    private String id; // 기본 ID
 
     private String deviceId;         // 장비 ID
     private String status;           // 작동 상태

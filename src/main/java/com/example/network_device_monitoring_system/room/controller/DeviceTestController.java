@@ -17,18 +17,16 @@ public class DeviceTestController {
         this.producer = producer;
     }
 
-    /**
-     * 단건 메시지 전송 (테스트용)
-     */
+
+     // 단건 메시지 전송
     @PostMapping("/send")
     public String sendTestMessage(@RequestBody DeviceStatusMessage message) {
         producer.sendStatus(message);
         return "Kafka로 메시지 전송 완료";
     }
 
-    /**
-     * 다건 메시지 전송 (배열로)
-     */
+
+     // 다건 메시지 전송 (배열로)
     @PostMapping("/bulk-send")
     public String sendBulkMessages(@RequestBody List<DeviceStatusMessage> messages) {
         messages.forEach(producer::sendStatus);

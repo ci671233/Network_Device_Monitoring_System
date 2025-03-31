@@ -32,12 +32,12 @@ public class DeviceStatusProducer {
             String json = objectMapper.writeValueAsString(message);
 
             // Kafka 토픽으로 메시지 전송
-            kafkaTemplate.send("device-status", json);
+            kafkaTemplate.send("device-status", json); // String, String
 
             System.out.println("Kafka로 메시지 전송됨: " + json);
 
         } catch (JsonProcessingException e) {
-            System.err.println("Kafka 메시지 직렬화 실패: " + e.getMessage());
+            System.err.println("실패: " + e.getMessage());
         }
     }
 }

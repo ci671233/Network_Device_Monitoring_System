@@ -17,9 +17,9 @@ public class ErrorLogService {
     }
 
     public Optional<DeviceErrorLogResponse> getErrorLog(String deviceId) {
-        return mongoRepository.findFirstByDeviceIdOrderByTimestampDesc(deviceId) // ✅ 여기 변경
-                .filter(doc -> doc.getErrorLog() != null) // 에러 로그가 실제로 있을 때만 처리
-                .map(doc -> new DeviceErrorLogResponse(
+        return mongoRepository.findFirstByDeviceIdOrderByTimestampDesc(deviceId) // 시간 내림차순
+                .filter(doc -> doc.getErrorLog() != null) // 필터링
+                .map(doc -> new DeviceErrorLogResponse( // DTO 형태
                         doc.getDeviceId(),
                         doc.getStatus(),
                         doc.getLocation(),
