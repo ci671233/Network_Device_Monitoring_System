@@ -16,12 +16,12 @@
 
 ## 사용 기술
 
-- **Backend**: Java 21, Spring Boot, Spring Security, JPA
+- **Backend**: Java 21, Spring Boot, Spring Security
 - **Database**: MySQL, MongoDB
 - **Messaging**: Apache Kafka
 - **Auth**: JWT, Bcrypt
 - **DevOps**: Docker, Docker Compose
-- **Test/Tooling**: Postman, IntelliJ, VS Code
+- **Test/Tooling**: Postman, IntelliJ
 
 ---
 
