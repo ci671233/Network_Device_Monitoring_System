@@ -40,15 +40,15 @@
   <img width="732" alt="image" src="https://github.com/user-attachments/assets/04eb0431-dde1-43a6-ade3-5b83f11e5cf7" />
 - DB 설계 이유
 - 고장 상태일 경우에는 정형 데이터 외에도 비정형적인 상세 로그가 발생하므로, NoSQL과 SQL을 혼합하여 사용함. Join 연산 제거
-<img width="687" alt="image" src="https://github.com/user-attachments/assets/bc4dfd38-720d-4a30-9a1a-e11a9bed8732" />
+  <img width="687" alt="image" src="https://github.com/user-attachments/assets/bc4dfd38-720d-4a30-9a1a-e11a9bed8732" />
 - 알고리즘 적용
 - 단순 Map 구조로 키 값을 찾는 것이 아닌 LinkedHashMap을 활용하여 가독성을 높였음
-<img width="687" alt="image" src="https://github.com/user-attachments/assets/3d2e1e9a-a881-4b34-acea-f99293e5fdb7" />
+  <img width="687" alt="image" src="https://github.com/user-attachments/assets/3d2e1e9a-a881-4b34-acea-f99293e5fdb7" />
 - 접근 인가 처리
 - 토큰 유효 시간 부여
-<img width="663" alt="image" src="https://github.com/user-attachments/assets/1d3ba4ac-bc7b-484f-b8d2-f68f229b2d1d" />
+  <img width="663" alt="image" src="https://github.com/user-attachments/assets/1d3ba4ac-bc7b-484f-b8d2-f68f229b2d1d" />
 - 컨테이너화
-<img width="712" alt="image" src="https://github.com/user-attachments/assets/29f7788a-e297-45e0-86ce-97435b95ceab" />
+  <img width="712" alt="image" src="https://github.com/user-attachments/assets/29f7788a-e297-45e0-86ce-97435b95ceab" />
  
 ---
 
