@@ -1,4 +1,4 @@
-<img width="796" alt="image" src="https://github.com/user-attachments/assets/93581af1-77e3-4894-918b-cba22645046f" /># 네트워크 장비 모니터링 시스템
+# 네트워크 장비 모니터링 시스템
 
 > Kafka, Spring Boot, MongoDB, MySQL, JWT 인증 기반의 실시간 장비 모니터링 시스템
 
